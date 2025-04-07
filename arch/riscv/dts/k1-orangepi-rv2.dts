@@ -249,6 +249,12 @@
 	status = "okay";
 };
 
+&pcie2_rc {
+	pinctrl-names = "default";
+	pinctrl-0 = <&pinctrl_pcie2_4>;
+	status = "okay";
+};
+
 &qspi {
 	status = "okay";
 	pinctrl-names = "default";
