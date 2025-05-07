@@ -14,7 +14,7 @@ dtb-$(CONFIG_TARGET_SPACEMIT_K1X) += k1-x_evb.dtb k1-x_deb2.dtb k1-x_deb1.dtb \
 				     k1-x_MUSE-Book.dtb m1-x_milkv-jupiter.dtb \
 				     k1-x_lpi3a.dtb k1-x_MUSE-Card.dtb \
 				     k1-x_MUSE-Paper-mini-4g.dtb k1-x_baton-camera.dtb \
-				     k1-x_FusionOne.dtb k1-x_InnoBoard-Pi.dtb k1-x_ZT001H.dtb \
+				     k1-x_FusionOne.dtb x1_orangepi-rv2.dtb k1-x_ZT001H.dtb \
 				     k1-x_uav.dtb k1-x_MUSE-Paper2.dtb k1-x_MUSE-Pi-Pro.dtb k1-x_LX-V10.dtb \
 				     k1-x_som.dtb k1-x_ZT_RVOH007.dtb
 

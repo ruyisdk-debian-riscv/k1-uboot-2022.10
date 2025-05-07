@@ -8,7 +8,7 @@
 #include "k1-x_spm8821.dtsi"
 
 / {
-	model = "spacemit k1-x InnoBoard-Pi board";
+	model = "Xunlong OrangePi RV2";
 
 	aliases {
 		efuse_power = &ldo_31;
@@ -245,6 +245,7 @@
 &pcie1_rc {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_pcie1_3>;
+	k1x,pwr_on = <&gpio 116 0>;
 	status = "okay";
 };
 
