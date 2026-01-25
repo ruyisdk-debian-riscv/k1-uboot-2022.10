@@ -20,10 +20,10 @@
 		};
 
 		fdt_1 {
-			description = "k1-x_deb1";
+			description = "k1-bananapi-f3";
 			type = "flat_dt";
 			compression = "none";
-			data = /incbin/("../dtb/k1-x_deb1.dtb");
+			data = /incbin/("../dtb/k1-bananapi-f3.dtb");
 			hash-1 {
 				algo = "crc32";
 			};
@@ -186,7 +186,7 @@
 	configurations {
 		default = "conf_1";
 		conf_1 {
-			description = "k1-x_deb1";
+			description = "k1-bananapi-f3";
 			loadables = "uboot";
 			fdt = "fdt_1";
 		};
